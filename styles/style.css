@@ -280,7 +280,8 @@ header {
 }
 .customer {
 	max-width: 770px;
-	margin-top: 60px;
+	margin: 0 auto;
+	margin-top: 60px;	
 }
 .customer img {
 	float: left;
