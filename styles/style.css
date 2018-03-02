@@ -7,6 +7,8 @@ body {
 .center-conteiner {
 	max-width: 1200px;
 	margin: 0px auto;
+	display: flex;
+	justify-content: space-between;
 }
 
 .clr {
@@ -36,19 +38,16 @@ header {
 }
 
 .main-logo {
-	float: left;
 	margin: 2.5% 0;
 }
 .main-nav{
-	float: right;
+	display: flex;
 	padding: 0;
 	width: 55%;
 	margin: 3% 0;
 }
 .main-nav li {
-	float: left;
-	margin-right: 2.5%;
-	
+	margin-right: 2.5%;	
 	list-style: none;	
 }
 .main-nav li a {
