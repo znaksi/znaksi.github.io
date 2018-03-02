@@ -8,6 +8,12 @@ body {
 	max-width: 1200px;
 	margin: 0px auto;	
 }
+.center-conteiner-header {	
+	display: flex;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: 0px auto;
+}
 
 .clr {
 	clear: both;
@@ -32,9 +38,7 @@ header {
 	position: fixed;
 	top:0;
 	left:0;
-	z-index: 10;
-	display: flex;
-	justify-content: space-between;
+	z-index: 10;	
 	width: 100%;
 }
 
